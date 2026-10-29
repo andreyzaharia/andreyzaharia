@@ -39,47 +39,57 @@ PREFERRED_LOGO_ORDER = ("linux", "kubernetes")
 YAML_ROWS = [
     (0, "profile", ""),
     (1, "subject", "Andrei Silviu Zaharia"),
-    (1, "role", "Tecnico Analista Funcional"),
-    (1, "origin", "Madrid, España"),
-    (1, "focus", "Spring Boot · Cloud · Java · Angular · Software Engineer"),
-    (1, "status", "Automatizacion · IA · Despliegue"),
-    (1, "toolchain", "Docker · GitHub Actions"),
-    (1, "stack", "Spring Boot · Cloud · Java · Angular"),
+    (1, "role", "Functional Analyst & Software Engineer"),
+    (1, "location", "Madrid, Spain"),
+    (1, "company", "Pelayo Seguros"),
+    (1, "specialization", "Java Backend & Enterprise Integration"),
+    (1, "stack", "Java · Spring Boot · Angular"),
+    (1, "devops", "Docker · Kubernetes · GitHub Actions"),
     (1, "cloud", "AWS · Azure"),
-    (1, "containers", "Kubernetes · Docker · Helm"),
-    (1, "iac", "Terraform · Ansible"),
-    (1, "observability", "Prometheus · Datadog · Sentry"),
-    (1, "automation", "Python · Bash · JavaScript"),
+    (1, "automation", "Python · AI · Scripting"),
+    (1, "databases", "PostgreSQL · Oracle · H2"),
+    (1, "homelab", "Proxmox · Docker · Game Hosting"),
+    (1, "interests", "Automation · Self-hosting · IA"),
     (0, "contact", ""),
-    (1, "linkedin", "/in/mcperezes"),
     (1, "github", "andreyzaharia"),
+    (1, "linkedin", "/in/andrei-silviu-zaharia"),
     (0, ""),
+    (1, "ai_focus", "Agents · Automation · Workflows"),
 ]
 
 THEMES = {
-    "dark": {
-        "bg":      "#0A0F1E",
-        "panel":   "#0D1628",
-        "panel2":  "#101B30",
-        "line":    "#25344C",
-        "muted":   "#8291A8",
-        "text":    "#F0E6F0",
-        "portrait":"#F78CA0",   # city pop pink
-        "chrome":  "#C9B1D9",   # city pop lavender
-        "accent":  "#F78CA0",
-        "shadow":  "#02050B",
-    },
-    "light": {
-        "bg":      "#FDF0F3",
-        "panel":   "#FFFFFF",
-        "panel2":  "#FDE8EE",
-        "line":    "#F0C0CE",
-        "muted":   "#9B7B8A",
-        "text":    "#2D1A24",
-        "portrait":"#E05F80",
-        "chrome":  "#7B5EA7",
-        "accent":  "#E05F80",
-        "shadow":  "#D4A0B0",
+"dark": {
+    "bg":       "#070B14",
+    "panel":    "#0D1324",
+    "panel2":   "#111A30",
+    "line":     "#24324F",
+
+    "muted":    "#89A1C6",
+    "text":     "#E8F1FF",
+
+    # retrato/particulas
+    "portrait": "#60A5FA",
+
+    # acentos y marcos
+    "chrome":   "#8B5CF6",
+    "accent":   "#A855F7",
+
+    "shadow":   "#020617",
+},
+"light": {
+    "bg":       "#F4F8FF",
+    "panel":    "#FFFFFF",
+    "panel2":   "#EEF4FF",
+    "line":     "#CBD8F0",
+
+    "muted":    "#5D7191",
+    "text":     "#112240",
+
+    "portrait": "#2563EB",
+    "chrome":   "#7C3AED",
+    "accent":   "#4F46E5",
+
+    "shadow":   "#B6C5E6",
     },
 }
 
@@ -338,9 +348,8 @@ def render_svg(
         '<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
         'aria-labelledby="title desc">',
-        "<title id=\"title\">Maria Claudia's live system profile</title>",
-        '<desc id="desc">Animated terminal profile with a dithered portrait and '
-        "DevOps tool silhouettes.</desc>",
+        "<title id=\"title\">Andrei Zaharia's Developer Profile</title>",
+        '<desc id="desc">Animated developer profile showcasing Java, Spring Boot, Cloud and DevOps technologies.</desc>",
         "<defs>",
         '<filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">'
         f'<feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="{t["shadow"]}" '
@@ -360,7 +369,7 @@ def render_svg(
         '<circle cx="80" cy="38" r="6" fill="#28C840"/>',
         f'<text x="590" y="43" text-anchor="middle" fill="{t["muted"]}" '
         'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-        'letter-spacing=".4">vim profile.yml</text>',
+        'letter-spacing=".4">vim andrei-profile.yml</text>',
         # Left visual frame.
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" '
         f'stroke="{t["line"]}"/>',
@@ -466,14 +475,14 @@ def render_svg(
             f'<path d="M474 124H1146" stroke="{t["line"]}"/>',
             f'<text x="490" y="111" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-            'font-weight="700" letter-spacing=".5">profile.yml</text>',
+            'font-weight="700" letter-spacing=".5">developer-profile.yml</text>',
             f'<text x="580" y="111" fill="{t["muted"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">[YAML]</text>',
             f'<rect x="996" y="94" width="132" height="24" rx="12" fill="{t["chrome"]}" opacity=".16" '
             f'stroke="{t["chrome"]}"/>',
             f'<text x="1062" y="111" text-anchor="middle" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-            'font-weight="700">@macu-dev</text>',
+            'font-weight="700">@andreyzaharia</text>',
         ]
     )
 
@@ -511,7 +520,7 @@ def render_svg(
             f'<text x="521" y="547" text-anchor="middle" fill="{t["bg"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" font-weight="700">NORMAL</text>',
             f'<text x="569" y="547" fill="{t["text"]}" '
-            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="600">profile.yml</text>',
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="600">developer-profile.yml</text>',
             f'<text x="740" y="547" fill="{t["muted"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">[utf-8]</text>',
             f'<text x="1134" y="547" text-anchor="end" fill="{t["muted"]}" '
