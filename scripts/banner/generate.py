@@ -38,13 +38,13 @@ PREFERRED_LOGO_ORDER = ("linux", "kubernetes")
 
 YAML_ROWS = [
     (0, "profile", ""),
-    (1, "subject", "Maria Claudia"),
-    (1, "role", "DevOps Engineer"),
-    (1, "origin", "Rosario, Argentina"),
-    (1, "focus", "CI/CD · Cloud Native · IaC"),
-    (1, "status", "Automatizacion · Escalado · Despliegue"),
-    (1, "toolchain", "Terraform · Helm · GitHub Actions"),
-    (0, "stack", ""),
+    (1, "subject", "Andrei Silviu Zaharia"),
+    (1, "role", "Tecnico Analista Funcional"),
+    (1, "origin", "Madrid, España"),
+    (1, "focus", "Spring Boot · Cloud · Java · Angular · Software Engineer"),
+    (1, "status", "Automatizacion · IA · Despliegue"),
+    (1, "toolchain", "Docker · GitHub Actions"),
+    (1, "stack", "Spring Boot · Cloud · Java · Angular"),
     (1, "cloud", "AWS · Azure"),
     (1, "containers", "Kubernetes · Docker · Helm"),
     (1, "iac", "Terraform · Ansible"),
@@ -52,8 +52,8 @@ YAML_ROWS = [
     (1, "automation", "Python · Bash · JavaScript"),
     (0, "contact", ""),
     (1, "linkedin", "/in/mcperezes"),
-    (1, "github", "macu-dev"),
-    (1, "timezone", "UTC-3 · Rosario"),
+    (1, "github", "andreyzaharia"),
+    (0, ""),
 ]
 
 THEMES = {
