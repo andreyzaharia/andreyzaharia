@@ -11,7 +11,7 @@
 
 <br>
 
-<a href="https://github.com/macu-dev">
+<a href="https://github.com/andreyzaharia">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=F78CA0&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=Maria+Claudia+%E2%80%94+DevOps+Engineer%3BInfrastructure+as+Code+%7C+CI%2FCD+%7C+Cloud+Native%3BContainers+%E2%80%A2+Kubernetes+%E2%80%A2+Observability%3BCafe+-+Retro+-+Music+-+Vibe+-+Chill+-+Tecnologia" alt="Banner animado con perfil DevOps">
 </a>
 
